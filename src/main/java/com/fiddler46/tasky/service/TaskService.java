@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.fiddler46.tasky.model.Task;
 import com.fiddler46.tasky.repositories.TaskRepository;
 
+@Service
 public class TaskService {
     @Autowired
     private TaskRepository taskRepository;
