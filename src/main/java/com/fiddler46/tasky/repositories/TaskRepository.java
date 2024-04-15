@@ -7,5 +7,5 @@ import com.fiddler46.tasky.model.Task;
 
 @Repository
 public interface TaskRepository extends MongoRepository<Task, String>{
-
+    
 }
